@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pet Shopada</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/inicial.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/cacatiorro.png">
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" name="" id="toggler">
+      <label for="toggler" class="fas fa-bars"></label>
+      <a href="paginicial.html"><img src="assets/images/cacatiorro.png"></a>
+      <a href="paginicial.html" class="logo">Cãopanheiro</a>
+      <nav class="navbar">
+        <a href="paginicial.html">Página Inicial</a>
+        <a href="pagsobrenos.html">Sobre Nós</a>
+        <a href="pagshopping.html">Produtos</a>
+        <a href="pagcontato.html">Contato</a>
+        <a href="pagadocao.html">Adoção</a>
+      </nav>
+
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
+
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="content"> 
+          <h3>Bem-Vindos ao Cãopanheiro!</h3><br>
+          <span>O melhor lugar para o seu melhor amigo!</span>
+          <br>
+          <a href="assets/videos/rickroll.mp4" class="btn">Compre Conosco</a> <a href="assets/videos/rickroll.mp4" class="btn">Entre em contato</a>
+        </div>
+      </section>
+        <h2 class="fundo">▼ ▼ ▼ ▼ AGENDAMENTO ▼ ▼ ▼ ▼</h2>
+        <div class="container">
+            <form class="form-box">
+              <label form="Nome">Nome:<span class="red">*</span></label>
+              <input type="text" id="Nome" name="Nome" required><br><br>
+
+              <label form="Nome">Nome do Pet:<span class="red">*</span></label>
+             <input type="text" id="Nomepet" name="Nomepet" required><br><br>
+
+             <label form="E-mail">E-mail:<span class="red">*</span></label>
+             <input type="email" id="Email" name="Email" required><br><br>
+
+             <label form="telefone">Telefone:<span class="red">*</span></label>
+             <input type="tel" id="Telefone" name="Telefone" required><br><br>
+
+             <label form="text">Informe a Raça:<span class="red">*</span></label>
+             <input type="text" id="informaraca" name="informaraca" required><br><br>
+
+             <label form="mensagem">Sobre o Pet:<span class="red">*</span></label>
+             <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
+
+             <label for="opcoes">Opções:</label>
+             <select id="opcoes" name="opcoes">
+              <option value="opcao1">Banho</option>
+              <option value="opcao2">Banho e Tosa Higienica</option>
+              <option value="opcao3">Banho e Tosa Bebe</option>
+              <option value="opcao4">Banho e Tosa na Tesoura</option>
+              <option value="opcao5">Banho e Tosa na Maquina</option>
+              <option value="opcao6">Banho e Tosa Arredondada</option>
+              <option value="opcao7">Banho e Tosa Verão</option>
+             </select><br>
+
+             <label>Escolha uma ou mais opções:</label><br>
+
+             <input type="checkbox" id="checkbox1" name="checkbox1" value="opcao1">
+             <label for="checkbox1">Laço ou gravata (especificar acima)</label><br>
+
+             <input type="checkbox" id="checkbox2" name="checkbox2" value="opcao2">
+             <label for="checkbox2">Coleira antipulgas</label><br>
+
+             <input type="checkbox" id="checkbox3" name="checkbox3" value="opcao3">
+             <label for="checkbox3">Aparar as unhas</label><br>
+
+             <button class="button" type="submit" value="Enviar">Enviar</button>
+        </div>
+           <h2 class="fundo">Obrigado por nos escolher!</h2>
+        </form>
+    </main>
+    <a id="link_topo" href="pagcontato.html">&#9650;</a>
+    <footer>
+		<p>&copy; 2023 Pet Shopada</p>
+	</footer>
+</html>

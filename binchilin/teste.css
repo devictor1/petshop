@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product1 {
+    background-color: red;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .product2 {
+    background-color: green;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .product3 {
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 10px;
+  }
